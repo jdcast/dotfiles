@@ -1,0 +1,11 @@
+[push]
+  default = current
+[filter "hawser"]
+  clean = git hawser clean %f
+  smudge = git hawser smudge %f
+  required = true
+[user]
+  name = jdcast
+  email = jdcast@stanford.edu
+[core]
+  editor = /usr/bin/vim
