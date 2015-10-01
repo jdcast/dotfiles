@@ -1,26 +1,28 @@
 set nocompatible
 filetype off    " Required
 
-set rtp+=~/.vim/bundle/vundle
-call vundle#rc()
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
 
 " Required
-"Bundle 'VundleVim/Vundle.vim'
+Plugin 'VundleVim/Vundle.vim'
 
 " Required
-Bundle 'gmarik/vundle'   
+"Plugin 'gmarik/vundle'   
 
 " solarized theme
-Bundle 'altercation/vim-colors-solarized'
+Plugin 'altercation/vim-colors-solarized'
 
 " coffeescript
-Bundle 'kchmck/vim-coffee-script'
+Plugin 'kchmck/vim-coffee-script'
 
 " jade
-Bundle 'digitaltoad/vim-jade'
+Plugin 'digitaltoad/vim-jade'
 
 " JSON
-Bundle 'elzr/vim-json'
+Plugin 'elzr/vim-json'
+
+call vundle#end()
 
 " Don't create swap files
 set noswapfile
