@@ -17,7 +17,7 @@ Plugin 'altercation/vim-colors-solarized'
 Plugin 'kchmck/vim-coffee-script'
 
 " jade
-Plugin 'digitaltoad/vim-jade'
+Plugin 'digitaltoad/vim-pug'
 
 " JSON
 Plugin 'elzr/vim-json'

@@ -4,8 +4,10 @@
   clean = git hawser clean %f
   smudge = git hawser smudge %f
   required = true
-[user]
-  name = jdcast
-  email = jdcast@stanford.edu
 [core]
   editor = /usr/bin/vim
+[user]
+	name = jdcast
+	email = john.d.cast@gmail.com
+[credential]
+	helper = cache --timeout=86400
