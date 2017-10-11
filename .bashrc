@@ -123,3 +123,8 @@ source /usr/local/bin/virtualenvwrapper.sh
 export PATH="$PATH:/usr/local/cuda/bin"
 export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64"
 export CUDA_HOME=/usr/local/cuda
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+
+export PYTHONPATH="${PYTHONPATH}:/home/nightrider/dolphin-ai/python-utilities"
