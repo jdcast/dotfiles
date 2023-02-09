@@ -61,3 +61,6 @@ colorscheme solarized
 
 " Required
 filetype plugin indent on 
+
+" Enable copying from vim to the system-clipboard
+set clipboard=unnamedplus 
