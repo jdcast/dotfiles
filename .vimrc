@@ -63,4 +63,5 @@ colorscheme solarized
 filetype plugin indent on 
 
 " Enable copying from vim to the system-clipboard
+" Needs clipboard for vim. Install with 'sudo apt install vim-gtk3'
 set clipboard=unnamedplus 
