@@ -65,3 +65,9 @@ filetype plugin indent on
 " Enable copying from vim to the system-clipboard
 " Needs clipboard for vim. Install with 'sudo apt install vim-gtk3'
 set clipboard=unnamedplus 
+
+" Set the filetype based on the file's extension, but only if
+" " 'filetype' has not already been set
+" Allows these file types to have proper syntax highlighting
+au BufRead,BufNewFile *.urdf.xacro setfiletype xml
+au BufRead,BufNewFile *.xacro setfiletype xml
