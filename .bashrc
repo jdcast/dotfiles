@@ -129,4 +129,5 @@ export NVM_DIR="$HOME/.nvm"
 
 export PYTHONPATH="${PYTHONPATH}:/home/nightrider/dolphin-ai/python-utilities"
 
-source /opt/ros/galactic/setup.bash
+#source /opt/ros/galactic/setup.bash
+source /opt/ros/noetic/setup.bash
