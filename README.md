@@ -10,6 +10,5 @@
 4. install coloscheme `solarized`: 
     ```
     cd ~/.vim/bundle
-    git clone git://github.com/altercation/vim-colors-solarized.git
-    (possibly instead `git clone git@github.com:altercation/vim-colors-solarized.git`)
+    git clone git@github.com:altercation/vim-colors-solarized.git
     ```
