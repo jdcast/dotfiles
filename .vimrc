@@ -71,3 +71,4 @@ set clipboard=unnamedplus
 " Allows these file types to have proper syntax highlighting
 au BufRead,BufNewFile *.urdf.xacro setfiletype xml
 au BufRead,BufNewFile *.xacro setfiletype xml
+au BufRead,BufNewFile *.launch setfiletype xml
