@@ -22,6 +22,9 @@ Plugin 'digitaltoad/vim-pug'
 " JSON
 Plugin 'elzr/vim-json'
 
+" YCM
+Plugin 'ycm-core/YouCompleteMe'
+
 call vundle#end()
 
 " Don't create swap files

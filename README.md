@@ -12,3 +12,4 @@
     cd ~/.vim/bundle
     git clone git@github.com:altercation/vim-colors-solarized.git
     ```
+5. install YouCompleteMe with --clangd-completer and --all flags (may require other installations such as Go, JDK, etc.)
