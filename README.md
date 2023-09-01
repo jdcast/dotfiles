@@ -13,4 +13,4 @@
     git clone git@github.com:altercation/vim-colors-solarized.git
     ```
 5. install YouCompleteMe with --clangd-completer and --all flags (may require other installations such as Go, JDK, etc.)
-  a. further configure according to https://github.com/Briancbn/ros_vim_autocomplete#ycm-ros-configuration for ROS workspaces and added styling
+  1. further configure according to https://github.com/Briancbn/ros_vim_autocomplete#ycm-ros-configuration for ROS workspaces and added styling
