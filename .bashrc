@@ -151,3 +151,4 @@ unset __conda_setup
 
 # export path for sphinx command line tools
 export PATH="/home/nightrider/.local/bin:$PATH"
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
