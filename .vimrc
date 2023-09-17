@@ -45,6 +45,10 @@ set tabstop=2
 set shiftwidth=2
 set expandtab
 
+" toggle for when pasting with no indent desired e.g. from clipboard
+" https://stackoverflow.com/questions/2514445/turning-off-auto-indent-when-pasting-text-into-vim
+set pastetoggle=<F4>
+
 "set completion-ignore-case on
 "set show-all-if-abmiguous on
 "TAB: menu-complete
@@ -61,6 +65,7 @@ colorscheme solarized
 
 " Required
 filetype plugin indent on 
+syntax on
 
 " Enable copying from vim to the system-clipboard
 " Needs clipboard for vim. Install with 'sudo apt install vim-gtk3'
@@ -71,3 +76,5 @@ set clipboard=unnamedplus
 " Allows these file types to have proper syntax highlighting
 au BufRead,BufNewFile *.urdf.xacro setfiletype xml
 au BufRead,BufNewFile *.xacro setfiletype xml
+au BufRead,BufNewFile *.sdf setfiletype xml
+au BufRead,BufNewFile *.ops setfiletype sh

@@ -129,4 +129,25 @@ export NVM_DIR="$HOME/.nvm"
 
 export PYTHONPATH="${PYTHONPATH}:/home/nightrider/dolphin-ai/python-utilities"
 
-source /opt/ros/galactic/setup.bash
+#source /opt/ros/galactic/setup.bash
+source /opt/ros/noetic/setup.bash
+
+alias rsp_rtt='export RTT_COMPONENT_PATH=$COLCON_PREFIX_PATH/kdl_typekit/lib/orocos:$COLCON_PREFIX_PATH/orocos_toolchain/lib/orocos:$COLCON_PREFIX_PATH/rtt_ros2_builtin_interfaces/lib/orocos:$COLCON_PREFIX_PATH/rtt_ros2_geometry_msgs/lib/orocos:$COLCON_PREFIX_PATH/rtt_ros2_interfaces/lib/orocos:$COLCON_PREFIX_PATH/rtt_ros2/lib/orocos:$COLCON_PREFIX_PATH/rtt_ros2_node/lib/orocos:$COLCON_PREFIX_PATH/rtt_ros2_params/lib/orocos:$COLCON_PREFIX_PATH/rtt_ros2_primitives_typekit/lib/orocos:$COLCON_PREFIX_PATH/rtt_ros2_rclcpp_typekit/lib/orocos:$COLCON_PREFIX_PATH/rtt_ros2_std_msgs/lib/orocos:$COLCON_PREFIX_PATH/rtt_ros2_topics/lib/orocos:$COLCON_PREFIX_PATH/rsp_week07/lib/orocos:$COLCON_PREFIX_PATH/rtt_ur_trajectory/lib/orocos:$COLCON_PREFIX_PATH/rtt_ros2_sensor_msgs/lib/orocos:$COLCON_PREFIX_PATH/rtt_ros2_services/lib/orocos:$COLCON_PREFIX_PATH/rtt_ros2_trajectory_msgs/lib/orocos'
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/home/nightrider/anaconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/home/nightrider/anaconda3/etc/profile.d/conda.sh" ]; then
+        . "/home/nightrider/anaconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/home/nightrider/anaconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+
+# export path for sphinx command line tools
+export PATH="/home/nightrider/.local/bin:$PATH"
