@@ -27,6 +27,9 @@ Plugin 'ycm-core/YouCompleteMe'
 
 call vundle#end()
 
+" enable mouse
+set mouse=a
+
 " Don't create swap files
 set noswapfile
 
