@@ -85,6 +85,7 @@ au BufRead,BufNewFile *.xacro setfiletype xml
 au BufRead,BufNewFile *.sdf setfiletype xml
 au BufRead,BufNewFile *.ops setfiletype sh
 au BufRead,BufNewFile *.launch setfiletype xml
+au BufRead,BufNewFile *.service* setfiletype systemd 
 
 " YCM settings
 let g:ycm_max_num_candidates = 5
