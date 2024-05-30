@@ -14,7 +14,7 @@
 10. python3 install.py --all 
 11. cd ~/config-files  
 12. stow -t ~ vim
-13. stow -t ~ <machine-specific-folder-in-repo>
+13. stow -t ~ `<machine-specific-folder-in-repo>`
 14. vim
 15. :PluginInstall 
 
