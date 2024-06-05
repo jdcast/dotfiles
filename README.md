@@ -9,7 +9,7 @@ NOTE: assumes cmake, python development headers, npm, c++ compiler and java are 
 3. sudo apt install vim 
 4. install go: https://go.dev/doc/install
 5. sudo apt install stow
-6. git clone --recursive https://github.com/jdcast/config-files.git ~/config-files
+6. git clone --recursive git@github.com:jdcast/config-files.git ~/config-files
 7. cd config-files
 8. git submodule update --init --recursive
 9. cd ~/config-files/common/.vim/bundle/YouCompleteMe
