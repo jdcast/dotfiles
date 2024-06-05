@@ -2,6 +2,8 @@
 ## dotfiles respository for use with GNU Stow
 .vimrc, .tmux.conf, etc.
 
+NOTE: assumes cmake, python development headers, npm, c++ compiler and java are installed
+
 1. sudo add-apt-repository ppa:jonathonf/vim
 2. sudo apt update
 3. sudo apt install vim 
@@ -13,7 +15,7 @@
 9. cd ~/config-files/common/.vim/bundle/YouCompleteMe
 10. python3 install.py --all 
 11. cd ~/config-files  
-12. stow -t ~ vim
+12. stow -t ~ common
 13. stow -t ~ `<machine-specific-folder-in-repo>`
 14. vim
 15. :PluginInstall 
