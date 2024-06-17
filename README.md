@@ -19,6 +19,9 @@ NOTE: assumes cmake, python development headers, npm, c++ compiler and java are 
 13. stow -t ~ `<machine-specific-folder-in-repo>`
 14. vim
 15. :PluginInstall 
+16. chmod +x setup_tmux.sh
+17. ./setup_tmux.sh
+18. tmux source ~/.tmux.conf
 
 ### YouCompleteMe:
 1. Further configure according to https://github.com/Briancbn/ros_vim_autocomplete#ycm-ros-configuration for ROS workspaces and added styling
