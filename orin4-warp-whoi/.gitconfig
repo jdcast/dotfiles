@@ -1,0 +1,18 @@
+[push]
+  default = current
+[filter "hawser"]
+  clean = git hawser clean %f
+  smudge = git hawser smudge %f
+  required = true
+[core]
+  editor = /usr/bin/vim
+[user]
+	name = warpauv-orin4
+	email = john.d.cast@gmail.com
+[credential]
+	helper = store
+	credentialStore = gpg
+	helper = 
+	helper = /usr/local/bin/git-credential-manager
+[credential "https://dev.azure.com"]
+	useHttpPath = true
