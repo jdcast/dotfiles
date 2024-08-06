@@ -118,7 +118,7 @@ fi
 
 export WORKON_HOME=$HOME/.virtualenvs   # optional
 export PROJECT_HOME=$HOME/projects      # optional
-source /usr/local/bin/virtualenvwrapper.sh
+#source /usr/local/bin/virtualenvwrapper.sh
 
 export PATH="$PATH:/usr/local/cuda/bin"
 export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64"
