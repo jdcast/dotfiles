@@ -25,6 +25,9 @@ Plugin 'elzr/vim-json'
 " YCM
 Plugin 'ycm-core/YouCompleteMe'
 
+" vim instant markdown
+Plugin 'instant-markdown/vim-instant-markdown'
+
 call vundle#end()
 
 " enable mouse
