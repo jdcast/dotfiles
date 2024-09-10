@@ -2,7 +2,7 @@
 ## dotfiles respository for use with GNU Stow
 .vimrc, .tmux.conf, etc.
 
-NOTE: assumes cmake, python development headers, npm, c++ compiler and java are installed
+NOTE: assumes tmux, cmake, python development headers, npm, c++ compiler and java are installed
 
 1. sudo add-apt-repository ppa:jonathonf/vim
 2. sudo apt update

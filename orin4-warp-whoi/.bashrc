@@ -116,39 +116,64 @@ if ! shopt -oq posix; then
   fi
 fi
 
-export WORKON_HOME=$HOME/.virtualenvs   # optional
-export PROJECT_HOME=$HOME/projects      # optional
+#export WORKON_HOME=$HOME/.virtualenvs   # optional
+#export PROJECT_HOME=$HOME/projects      # optional
 #source /usr/local/bin/virtualenvwrapper.sh
 
 export PATH="$PATH:/usr/local/cuda/bin"
 export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64"
 export CUDA_HOME=/usr/local/cuda
 
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+#export NVM_DIR="$HOME/.nvm"
+#[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 
-export PYTHONPATH="${PYTHONPATH}:/home/nightrider/dolphin-ai/python-utilities"
+#export PYTHONPATH="${PYTHONPATH}:/home/nightrider/dolphin-ai/python-utilities"
 
 #source /opt/ros/galactic/setup.bash
 source /opt/ros/noetic/setup.bash
+source ~/warp_ws/devel/setup.bash
+setRpi3
 
-alias rsp_rtt='export RTT_COMPONENT_PATH=$COLCON_PREFIX_PATH/kdl_typekit/lib/orocos:$COLCON_PREFIX_PATH/orocos_toolchain/lib/orocos:$COLCON_PREFIX_PATH/rtt_ros2_builtin_interfaces/lib/orocos:$COLCON_PREFIX_PATH/rtt_ros2_geometry_msgs/lib/orocos:$COLCON_PREFIX_PATH/rtt_ros2_interfaces/lib/orocos:$COLCON_PREFIX_PATH/rtt_ros2/lib/orocos:$COLCON_PREFIX_PATH/rtt_ros2_node/lib/orocos:$COLCON_PREFIX_PATH/rtt_ros2_params/lib/orocos:$COLCON_PREFIX_PATH/rtt_ros2_primitives_typekit/lib/orocos:$COLCON_PREFIX_PATH/rtt_ros2_rclcpp_typekit/lib/orocos:$COLCON_PREFIX_PATH/rtt_ros2_std_msgs/lib/orocos:$COLCON_PREFIX_PATH/rtt_ros2_topics/lib/orocos:$COLCON_PREFIX_PATH/rsp_week07/lib/orocos:$COLCON_PREFIX_PATH/rtt_ur_trajectory/lib/orocos:$COLCON_PREFIX_PATH/rtt_ros2_sensor_msgs/lib/orocos:$COLCON_PREFIX_PATH/rtt_ros2_services/lib/orocos:$COLCON_PREFIX_PATH/rtt_ros2_trajectory_msgs/lib/orocos'
+#alias rsp_rtt='export RTT_COMPONENT_PATH=$COLCON_PREFIX_PATH/kdl_typekit/lib/orocos:$COLCON_PREFIX_PATH/orocos_toolchain/lib/orocos:$COLCON_PREFIX_PATH/rtt_ros2_builtin_interfaces/lib/orocos:$COLCON_PREFIX_PATH/rtt_ros2_geometry_msgs/lib/orocos:$COLCON_PREFIX_PATH/rtt_ros2_interfaces/lib/orocos:$COLCON_PREFIX_PATH/rtt_ros2/lib/orocos:$COLCON_PREFIX_PATH/rtt_ros2_node/lib/orocos:$COLCON_PREFIX_PATH/rtt_ros2_params/lib/orocos:$COLCON_PREFIX_PATH/rtt_ros2_primitives_typekit/lib/orocos:$COLCON_PREFIX_PATH/rtt_ros2_rclcpp_typekit/lib/orocos:$COLCON_PREFIX_PATH/rtt_ros2_std_msgs/lib/orocos:$COLCON_PREFIX_PATH/rtt_ros2_topics/lib/orocos:$COLCON_PREFIX_PATH/rsp_week07/lib/orocos:$COLCON_PREFIX_PATH/rtt_ur_trajectory/lib/orocos:$COLCON_PREFIX_PATH/rtt_ros2_sensor_msgs/lib/orocos:$COLCON_PREFIX_PATH/rtt_ros2_services/lib/orocos:$COLCON_PREFIX_PATH/rtt_ros2_trajectory_msgs/lib/orocos'
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$('/home/jdcast/anaconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
-if [ $? -eq 0 ]; then
-    eval "$__conda_setup"
-else
-    if [ -f "/home/jdcast/anaconda3/etc/profile.d/conda.sh" ]; then
-        . "/home/jdcast/anaconda3/etc/profile.d/conda.sh"
-    else
-        export PATH="/home/jdcast/anaconda3/bin:$PATH"
-    fi
-fi
-unset __conda_setup
+#__conda_setup="$('/home/nightrider/anaconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
+#if [ $? -eq 0 ]; then
+#    eval "$__conda_setup"
+#else
+#    if [ -f "/home/nightrider/anaconda3/etc/profile.d/conda.sh" ]; then
+#        . "/home/nightrider/anaconda3/etc/profile.d/conda.sh"
+#    else
+#        export PATH="/home/nightrider/anaconda3/bin:$PATH"
+#    fi
+#fi
+#unset __conda_setup
 # <<< conda initialize <<<
 
 # export path for sphinx command line tools
-export PATH="/home/nightrider/.local/bin:$PATH"
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+#export PATH="/home/nightrider/.local/bin:$PATH"
+#[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+source /opt/ros/noetic/setup.bash
+source /opt/ros/noetic/setup.bash
+source ~/warp_ws/devel/setup.bash
+source /opt/ros/noetic/setup.bash
+source ~/warp_ws/devel/setup.bash
+source /opt/ros/noetic/setup.bash
+source ~/warp_ws/devel/setup.bash
+source /opt/ros/noetic/setup.bash
+source ~/warp_ws/devel/setup.bash
+source /opt/ros/noetic/setup.bash
+source ~/warp_ws/devel/setup.bash
+source /opt/ros/noetic/setup.bash
+source ~/warp_ws/devel/setup.bash
+source /opt/ros/noetic/setup.bash
+source ~/warp_ws/devel/setup.bash
+source /opt/ros/noetic/setup.bash
+source ~/warp_ws/devel/setup.bash
+source /opt/ros/noetic/setup.bash
+source ~/warp_ws/devel/setup.bash
+source /opt/ros/noetic/setup.bash
+source ~/warp_ws/devel/setup.bash
+source /opt/ros/noetic/setup.bash
+source ~/warp_ws/devel/setup.bash
