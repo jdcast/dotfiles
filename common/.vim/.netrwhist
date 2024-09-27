@@ -1,3 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =1
+let g:netrw_dirhistcnt =3
+let g:netrw_dirhist_3='/home/warp/ros2_ws/src/zed-ros2-wrapper'
+let g:netrw_dirhist_2='/home/warp/ros2_warp_ws/src/warpauv_config/rosinstall'
 let g:netrw_dirhist_1='/home/jdcast/warp_ws/src/warpauv_msgs'

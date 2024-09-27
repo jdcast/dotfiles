@@ -109,3 +109,7 @@ map gt :YcmCompleter GoTo<CR>  " Go to definition
 
 " Vim instant markdown settings
 let g:instant_markdown_theme = 'dark'
+
+autocmd FileType yaml setlocal expandtab
+autocmd FileType yaml setlocal shiftwidth=2
+autocmd FileType yaml setlocal tabstop=2

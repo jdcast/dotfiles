@@ -7,7 +7,7 @@
 [core]
   editor = /usr/bin/vim
 [user]
-	name = warpauv-orin4
+	name = orin5
 	email = john.d.cast@gmail.com
 [credential]
 	helper = store

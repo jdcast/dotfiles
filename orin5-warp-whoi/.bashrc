@@ -130,8 +130,9 @@ export CUDA_HOME=/usr/local/cuda
 #export PYTHONPATH="${PYTHONPATH}:/home/nightrider/dolphin-ai/python-utilities"
 
 source /opt/ros/humble/setup.bash
-source ~/warp_ws/devel/setup.bash
-setRpi3
+#source ~/ros2_humble/install/local_setup.bash
+source ~/warp_ws/install/setup.bash
+setRpi2
 
 #alias rsp_rtt='export RTT_COMPONENT_PATH=$COLCON_PREFIX_PATH/kdl_typekit/lib/orocos:$COLCON_PREFIX_PATH/orocos_toolchain/lib/orocos:$COLCON_PREFIX_PATH/rtt_ros2_builtin_interfaces/lib/orocos:$COLCON_PREFIX_PATH/rtt_ros2_geometry_msgs/lib/orocos:$COLCON_PREFIX_PATH/rtt_ros2_interfaces/lib/orocos:$COLCON_PREFIX_PATH/rtt_ros2/lib/orocos:$COLCON_PREFIX_PATH/rtt_ros2_node/lib/orocos:$COLCON_PREFIX_PATH/rtt_ros2_params/lib/orocos:$COLCON_PREFIX_PATH/rtt_ros2_primitives_typekit/lib/orocos:$COLCON_PREFIX_PATH/rtt_ros2_rclcpp_typekit/lib/orocos:$COLCON_PREFIX_PATH/rtt_ros2_std_msgs/lib/orocos:$COLCON_PREFIX_PATH/rtt_ros2_topics/lib/orocos:$COLCON_PREFIX_PATH/rsp_week07/lib/orocos:$COLCON_PREFIX_PATH/rtt_ur_trajectory/lib/orocos:$COLCON_PREFIX_PATH/rtt_ros2_sensor_msgs/lib/orocos:$COLCON_PREFIX_PATH/rtt_ros2_services/lib/orocos:$COLCON_PREFIX_PATH/rtt_ros2_trajectory_msgs/lib/orocos'
 
