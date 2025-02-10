@@ -25,7 +25,7 @@ Plugin 'elzr/vim-json'
 " YCM
 Plugin 'ycm-core/YouCompleteMe'
 
-" vim instant markdown
+" vim instant markdown                                                                                                                  
 Plugin 'instant-markdown/vim-instant-markdown'
 
 call vundle#end()
@@ -106,3 +106,10 @@ hi YcmWarningSection ctermbg=0 cterm=underline
 
 " YCM Shortcut
 map gt :YcmCompleter GoTo<CR>  " Go to definition
+
+" Vim instant markdown settings
+let g:instant_markdown_theme = 'dark'
+
+autocmd FileType yaml setlocal expandtab
+autocmd FileType yaml setlocal shiftwidth=2
+autocmd FileType yaml setlocal tabstop=2

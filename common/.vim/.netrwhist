@@ -1,5 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =3
-let g:netrw_dirhist_3='/home/jdcast/nucleus_driver/ros2/src/nucleus_driver_ros2/nucleus_subscribers'
-let g:netrw_dirhist_2='/home/jdcast/Documents/calibration/lab/gopro'
-let g:netrw_dirhist_1='/home/jdcast/warp_ws/src/warpauv_msgs'
