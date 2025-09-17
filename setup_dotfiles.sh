@@ -130,7 +130,8 @@ git -C "$DOT_PATH" submodule update --init --recursive
 YCM="$DOT_PATH/common/.vim/bundle/YouCompleteMe"
 if [[ -d $YCM ]]; then
   info "Building YouCompleteMe…"
-  python3 "$YCM/install.py" --all
+  #python3 "$YCM/install.py" --all
+  env GOTOOLCHAIN=go1.24.4+auto /usr/bin/python3 "$YCM/install.py" --all --verbose
 else
   warn "YouCompleteMe missing; skipping."
 fi
