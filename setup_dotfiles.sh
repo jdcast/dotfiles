@@ -64,8 +64,7 @@ stow_pkg(){
 }
 
 # ──────────────────────────── Install base packages ───────────────────────────
-info "Adding Vim PPA and updating apt…"
-$SUDO add-apt-repository -y ppa:jonathonf/vim
+info "Updating apt…"
 $SUDO apt-get update
 
 info "Installing prerequisites: vim, tmux, cmake, build-essential, default-jdk, python3-dev, nodejs, npm, stow, curl, git"
