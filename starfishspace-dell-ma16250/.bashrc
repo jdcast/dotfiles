@@ -134,3 +134,5 @@ if [ -e $USER_SHORTCUTS ] ; then source $USER_SHORTCUTS; fi
 export PATH=$PATH:/usr/local/go/bin
 
 alias sf='source /home/jdcast/starfish/.venv/bin/activate'
+export PLEXP_DATA_STORE_DIR="~/starfish/data_store/"
+

@@ -1,0 +1,16 @@
+[color]
+	ui = true
+[user]
+	name = John Cast
+	email = john@starfishspace.com
+[alias]
+	mylog = log --pretty=format:'%h %s [%an]' --graph
+	st = status
+	co = checkout
+	br = branch
+	ci = commit
+	rmt = remote
+	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+  reorder = "!GIT_SEQUENCE_EDITOR=\"sed -i -n 'h;1n;2p;g;p'\" git rebase -i HEAD~2"
+[push]
+	default = current
