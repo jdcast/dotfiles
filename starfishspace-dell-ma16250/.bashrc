@@ -136,3 +136,4 @@ export PATH=$PATH:/usr/local/go/bin
 alias sf='source /home/jdcast/starfish/.venv/bin/activate'
 export PLEXP_DATA_STORE_DIR="~/starfish/data_store/"
 
+source ~/starfish/.venv/bin/activate
