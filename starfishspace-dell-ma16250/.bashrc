@@ -139,5 +139,6 @@ export PLEXP_DATA_STORE_DIR="~/starfish/data_store/"
 export CLAUDE_CODE_USE_VERTEX=1
 export CLOUD_ML_REGION=us-east5
 export ANTHROPIC_VERTEX_PROJECT_ID=zach-claude-code
+export ANTHROPIC_MODEL="claude-sonnet-4-6"
 
 source ~/starfish/.venv/bin/activate
